@@ -6,7 +6,9 @@ public class Invoice {
     public void Invoice(double amount) {
         this.amount = amount;
     }
-    public void generateInvoice(){
+
+    public void generateInvoice() {
         System.out.println("Invoice generated successfully." + amount);
 
     }
+}
